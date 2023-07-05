@@ -1,0 +1,92 @@
+*{
+    background-color: #FF6D60;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+    display:block;
+    color: #F7D060;
+    text-align: center;
+    font-size: 60px;
+    margin-top:100px ;
+
+}
+
+.btn
+{
+    font-family: 'Belanosima', sans-serif;
+    margin: 0;
+    position: relative;
+    margin-top: 40px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #B9FFF8;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+} 
+
+.btn:hover {
+    background-color: #98D8AA;
+    color: white;
+  }
+
+
+.out
+{
+    display:block;
+    text-align: center;
+    font-size: 50px;
+    color: #C3F8FF;
+    margin-top:100px ;
+
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-social-media {
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    width: 32px;
+    cursor: pointer !important;
+    transition: 300ms all ease-in-out;
+    position: relative;
+  }
+  
+.icons-social-media:hover {
+    translate: -0px -10px;
+  }
+  
+#instagram,
+    #youtube,#twitch {
+    transition: 300ms all ease-in-out;
+    clip-path: circle(65%);
+  }
+  
+#instagram:hover {
+    background-color: rgb(221, 157, 189);
+  }
+  
+#youtube {
+    height: 35px;
+  }
+  
+#youtube:hover {
+    background-color: rgb(241, 96, 96);
+  }
+  
+#twitch:hover {
+    background-color: rgb(196, 143, 245);
+  }
+
